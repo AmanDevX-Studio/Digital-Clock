@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: black;
+}
+header {
+  background-color: rgb(95, 91, 91);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border: 2px 2px 2px red;
+}
+.navbar ul {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.navbar ul li {
+  list-style: none;
+  padding-right: 20px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  font: bold;
+  margin-bottom: 30px;
+  color: whitesmoke;
+}
+h2 {
+  color: aliceblue;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.first {
+  box-shadow: 2px 2px 10px 2px #8a2be2;
+  background: black;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  min-height: 70vh;
+  width: 60vw;
+}
+
+/* .container {
+    background-color: antiquewhite;
+  text-align: center;
+  display: flex;
+} */
+#date {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: blueviolet;
+  font-size: 60px;
+  height: 100px;
+  width: 400px;
+  box-shadow: 2px 2px 10px 2px #8a2be2;
+}
+#date:hover {
+  color: rgb(79, 250, 0);
+
+  box-shadow: 2px 2px 10px 2px rgb(79, 250, 0);
+}
+#time {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(79, 250, 0);
+  margin-top: 20px;
+  font-size: 60px;
+  height: 100px;
+  width: 400px;
+  box-shadow: 2px 2px 10px 2px rgb(79, 250, 0);
+}
+#time:hover {
+  color: blueviolet;
+  box-shadow: 2px 2px 10px 2px #8a2be2;
+}
+
+.second-section {
+  color: white;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  font: optional;
+}
+footer {
+  background-color: rgb(95, 91, 91);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
